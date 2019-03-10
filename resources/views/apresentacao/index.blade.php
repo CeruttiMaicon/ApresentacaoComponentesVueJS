@@ -20,6 +20,13 @@
                 <button type="button" class="btn btn-outline-dark">Dark</button>
            
             </v-card>
+
+            <hr>
+
+            <v-card titulo="PODER DO V-MODEL">
+                <v-iteracao></v-iteracao>
+               
+            </v-card>           
         </div>
     </div>
 </div>
