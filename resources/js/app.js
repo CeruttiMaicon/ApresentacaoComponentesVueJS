@@ -9,6 +9,10 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import money from 'v-money'
+
+Vue.use(money)
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -22,6 +26,9 @@ window.Vue = require('vue');
 
 Vue.component('v-card', require('./components/Card.vue').default);
 Vue.component('v-iteracao', require('./components/Vmodel.vue').default);
+Vue.component('v-money', require('./components/Vmoney.vue').default);
+Vue.component('v-change-password', require('./components/ChangePassword.vue').default);
+Vue.component('v-slider', require('./components/VSlider.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

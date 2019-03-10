@@ -25,8 +25,22 @@
 
             <v-card titulo="PODER DO V-MODEL">
                 <v-iteracao></v-iteracao>
-               
-            </v-card>           
+            </v-card>       
+
+            <hr>
+
+            <v-card titulo="Componente V-MONEY">
+                <v-money></v-money>
+            </v-card>    
+
+            <hr>
+                <v-change-password></v-change-password>
+            <hr>
+            
+            <v-card titulo="Componente TROCA DE SENHA">
+                <v-slider></v-slider>
+            </v-card> 
+            
         </div>
     </div>
 </div>
