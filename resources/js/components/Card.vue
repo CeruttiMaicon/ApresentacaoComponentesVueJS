@@ -3,10 +3,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Exemplo de componente CARD</div>
+                    <div class="card-header">{{titulo}}</div>
 
                     <div class="card-body">
-                        Oi eu sou um componente CARD
+                        <slot></slot>
                     </div>
                 </div>
             </div>
@@ -15,7 +15,12 @@
 </template>
 
 <script>
+
     export default {
+
+        //Aqui sao passadas as propriedades do componente.
+        props:['titulo'],
+
         mounted() {
             console.log('Component mounted.')
         }
